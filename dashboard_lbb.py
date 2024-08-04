@@ -17,14 +17,14 @@ st.set_page_config(
 )
 
 # ------- Judul Dashboard
-st.markdown("<h1 style='text-align: center;'> Credit Card Data Dashboard </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'> Credit Card Suitability Analysis </h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 # ------- Sidebar
 with st.sidebar:
-    st.subheader("Eligible Data")
+    st.subheader("Credit Card Eligibility Factors")
     st.markdown("---")
-    data_loaded = st.button("Start Credit Card Analysis")
+    data_loaded = st.button("Factors Overview")
 
 if data_loaded:
     # Read Data
